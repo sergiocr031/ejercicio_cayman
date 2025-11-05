@@ -5,6 +5,9 @@ baseurl: "/maria_herazo_trabajo-tercer_corte"
 url: "https://MariaFer2006.github.io"
 markdown: kramdown
 
+include:
+  - analytics
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -17,3 +20,5 @@ exclude:
   - Gemfile.lock
   - vendor
   - .gitignore
+  -
+
